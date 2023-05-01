@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <h1>Nothing Found</h1>
-      <Link path="/">Go Home</Link>
+      <Link to="/">Go Home</Link>
     </div>
   );
 };
