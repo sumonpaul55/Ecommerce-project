@@ -32,28 +32,23 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
- 
   background: #fff;
-    border: 5px solid transparent;
-    border-radius: 9px;
-    background-clip: content-box;
+  border: 5px solid transparent;
+  border-radius: 9px;
+  background-clip: content-box;
 }
-
 h1,
 h2,
 h3,
 h4 {
    font-family: "Work Sans", sans-serif;
-
 }
-
 h1 {
   color: ${({ theme }) => theme.colors.heading};
   font-size: 6rem;
   font-weight: 900;
 }
-
- h2 {
+h2 {
    color: ${({ theme }) => theme.colors.heading};
    font-size: 4.4rem;
    font-weight: 300;
@@ -82,7 +77,7 @@ li {
 }
 
 
-${"" /* resuable code section  */}
+/* ${"" /* resuable code section  */} */
 
 .container {
   max-width: 120rem;
