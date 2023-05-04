@@ -9,9 +9,8 @@ const Home = () => {
 };
 
 const Wrapper = styled.section`
-  background-color: ${({ theme }) => theme.colors.bg};
-  height: 20rem;
-  margin: 0 auto;
+  /* background-color: ${({ theme }) => theme.colors.bg}; */
+
   h1 {
     color: ${({ theme }) => theme.colors.color};
     text-align: center;
