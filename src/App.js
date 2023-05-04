@@ -13,7 +13,8 @@ import { ThemeProvider } from "styled-components";
 function App() {
   const theme = {
     colors: {
-      bg: "#fff",
+      bg: "#000",
+      color: "white",
     },
   };
   return (
