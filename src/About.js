@@ -1,12 +1,11 @@
 import React from "react";
-import styled from "styled-components";
+import HeroSection from "./components/HeroSection";
 
 const About = () => {
-  return <Wrapper>About</Wrapper>;
+  const Data = {
+    name: "Super Ecommerce",
+  };
+  return <HeroSection myData={Data} />;
 };
-
-const Wrapper = styled.section`
-  height: 100vh;
-`;
 
 export default About;
