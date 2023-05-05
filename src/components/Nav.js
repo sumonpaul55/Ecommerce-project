@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { FiShoppingCart } from "react-icons/fi";
+import { CgClose, CgMenu } from "react-icons/cg";
 
 const Nav = () => {
   const Nav = styled.nav`
@@ -167,6 +168,11 @@ const Nav = () => {
             </NavLink>
           </li>
         </ul>
+        {/* two button for open and close of menu */}
+        <div className="mobile-navbar-btn">
+          <CgMenu name="menu-outline" className="mobile-nav-icon" />
+          <CgClose name="close-outline" className="mobile-nav-icon close-outline" />
+        </div>
       </div>
     </Nav>
   );
