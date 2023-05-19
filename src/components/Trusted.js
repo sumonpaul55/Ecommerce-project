@@ -25,6 +25,11 @@ const Wrapper = styled.section`
     flex-direction: row;
   }
   @media screen and (max-width: ${({ theme }) => theme.media.mobile}) {
+    .brand-section-slider {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+    }
   }
 `;
 export default Trusted;
